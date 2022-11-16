@@ -1,5 +1,5 @@
 {
-  "name": "react-native-datalist-input",
+  "name": "@avol/react-native-datalist-input",
   "version": "1.0.0",
   "description": "React Native TextInput Component with Datalist",
   "main": "index.js",
@@ -26,7 +26,8 @@
     "native",
     "textinput",
     "datalist",
-    "reactnative"
+    "reactnative",
+    "dropdown"
   ],
   "bugs": {
     "url": "https://github.com/acelyavul/react-native-datalist-input/issues"
