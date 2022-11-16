@@ -1,0 +1,35 @@
+{
+  "name": "react-native-datalist-input",
+  "version": "1.0.0",
+  "description": "React Native TextInput Component with Datalist",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acelyavul/react-native-datalist-input"
+  },
+  "scripts": {
+    "prettier": "prettier -l .",
+    "prettier:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-native-get-random-values": "^1.8.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "author": "acelyavul",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "native",
+    "textinput",
+    "datalist",
+    "reactnative"
+  ],
+  "bugs": {
+    "url": "https://github.com/acelyavul/react-native-datalist-input/issues"
+  },
+  "homepage": "https://github.com/acelyavul/react-native-datalist-input#readme"
+}
