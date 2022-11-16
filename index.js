@@ -31,7 +31,7 @@ const DatalistInput = ({
   };
 
   return (
-    <View style={[styles.containerStyle, containerStyle]}>
+    <View style={containerStyle ?? styles.containerStyle}>
       <TextInput
         style={[styles.inputStyle, inputStyle]}
         value={value}
@@ -73,7 +73,7 @@ export default DatalistInput;
 
 DatalistInput.propTypes = {
   value: PropTypes.string,
-  onChange: PropTypes.func,
+  onChangeText: PropTypes.func,
   data: PropTypes.array,
   containerStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   style: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
