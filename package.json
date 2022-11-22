@@ -1,5 +1,5 @@
 {
-  "name": "@avol/react-native-datalist-input",
+  "name": "@avul/react-native-datalist-input",
   "version": "1.0.0",
   "description": "React Native TextInput Component with Datalist",
   "main": "index.js",

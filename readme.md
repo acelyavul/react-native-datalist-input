@@ -7,13 +7,13 @@ This package provides React Native TextInput component that contains a drop down
 Using NPM:
 
 ```
-npm i react-native-datalist-input
+npm i @avul/react-native-datalist-input
 ```
 
 Using Yarn:
 
 ```
-yarn add react-native-datalist-input
+yarn add @avul/react-native-datalist-input
 ```
 
 ## Demo
@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/88436030/202266915-9b07e9ce-3bb1-4255-
 ```javascript
 import React, {useState} from 'react';
 import {StyleSheet, View, Text} from 'react-native';
-import DatalistInput from '@avol/react-native/datalist-input';
+import DatalistInput from '@avul/react-native/datalist-input';
 
 const App = () => {
   const [value, setValue] = useState('');
