@@ -61,13 +61,13 @@ export default App;
 
 ## Available Props
 
-| Prop Name           | Type            |
-| ------------------- | --------------- |
-| value               | String          |
-| onChangeText        | Function        |
-| data                | Array           |
-| containerStyle      | Array or Object |
-| style               | Array or Object |
-| menuStyle           | Array or Object |
-| menuItemStyle       | Array or Object |
-| ... TextInput props |                 |
+| Prop                | Type            | Description     |
+| ------------------- | --------------- | --------------- |
+| value               | String          | Required for controlled components. Value of the text input. | 
+| onChangeText        | Function        | Required for controlled components. Callback that is called when the textinput's text changes.  |
+| data                | Array           | Required for controlled components. Array of values to be listed. Please see example. |
+| containerStyle      | Array or Object | Optional. Styling of view element. |
+| style               | Array or Object | Optional. Styling of textinput element. |
+| menuStyle           | Array or Object | Optional. Styling of view element that contains datalist |
+| menuItemStyle       | Array or Object | Optional. Styling of text element that belongs to datalist |
+| ... TextInput props |                 | Optional. Please see [documentation](https://reactnative.dev/docs/textinput) for more details. |
