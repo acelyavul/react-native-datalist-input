@@ -6,8 +6,8 @@
  * @flow strict-local
  */
 
-import React, {useState} from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, View, Text } from 'react-native';
 import DatalistInput from '@avul/react-native-datalist-input';
 
 const App = () => {
@@ -30,17 +30,17 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
-  screen: {
-    flex: 1,
-     alignItems: 'center',
-     backgroundColor: '#2c2c2c',
-    justifyContent: 'center',
-  },
-  containerStyle : {
+  containerStyle: {
     width: '80%',
   },
   inputStyle: {
     color: '#cdcdcd',
+  },
+  screen: {
+    alignItems: 'center',
+    backgroundColor: '#2c2c2c',
+    flex: 1,
+    justifyContent: 'center',
   },
   titleStyle: {
     color: '#cdcdcd',

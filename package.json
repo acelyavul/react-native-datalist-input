@@ -15,9 +15,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
-    "react-native-get-random-values": "^1.8.0",
-    "uuid": "^9.0.0"
+    "react-native": "*"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
