@@ -1,6 +1,6 @@
 {
   "name": "@avul/react-native-datalist-input",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "React Native TextInput Component with Datalist",
   "main": "dist/index.js",
   "repository": {
@@ -8,8 +8,8 @@
     "url": "https://github.com/acelyavul/react-native-datalist-input"
   },
   "scripts": {
-    "start": "echo \"demo folder contains sample app (see README)\" && exit 1",
-    "test": "echo \"demo folder contains the tests (see README)\" && exit 1",
+    "start": "echo \"demo folder contains sample app\" && exit 1",
+    "test": "echo \"demo folder contains the tests\" && exit 1",
     "build": "babel index.js --out-dir dist",
     "lint": "prettier -l .",
     "lint:fix": "prettier --write ."
