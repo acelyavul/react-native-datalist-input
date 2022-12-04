@@ -11,7 +11,7 @@
     "lint:fix": "eslint -c .eslintrc.js --ext .js . --fix"
   },
   "dependencies": {
-    "@avul/react-native-datalist-input": "^1.0.1",
+    "@avul/react-native-datalist-input": "^1.0.2",
     "prop-types": "^15.8.1",
     "react": "18.1.0",
     "react-native": "0.70.6"
