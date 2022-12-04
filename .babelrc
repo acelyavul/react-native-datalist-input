@@ -1,5 +1,10 @@
 {
   "presets": [
-    "react-native"
+    "@babel/react",
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/proposal-class-properties"
   ]
 }
