@@ -1,6 +1,6 @@
 {
   "name": "@avul/react-native-datalist-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native TextInput Component with Datalist",
   "main": "index.js",
   "repository": {
