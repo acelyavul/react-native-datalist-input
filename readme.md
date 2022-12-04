@@ -7,13 +7,13 @@ This package provides React Native TextInput component that contains a drop down
 Using NPM:
 
 ```
-npm i @avul/react-native-datalist-input
+npm i @avul/react-native-datalist-input react-native-get-random-values
 ```
 
 Using Yarn:
 
 ```
-yarn add @avul/react-native-datalist-input
+yarn add @avul/react-native-datalist-input react-native-get-random-values
 ```
 
 ## Demo
@@ -49,11 +49,11 @@ const App = () => {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-     alignItems: 'center',
-     backgroundColor: '#2c2c2c',
+    alignItems: 'center',
+    backgroundColor: '#2c2c2c',
     justifyContent: 'center',
   },
-  containerStyle : {
+  containerStyle: {
     width: '80%',
   },
   inputStyle: {
@@ -71,13 +71,13 @@ export default App;
 
 ## Available Props
 
-| Prop                | Type            | Description     |
-| ------------------- | --------------- | --------------- |
-| value               | String          | Required for controlled components. Value of the text input. | 
-| onChangeText        | Function        | Required for controlled components. Callback that is called when the textinput's text changes.  |
-| data                | Array           | Required for controlled components. Array of values to be listed. Please see example. |
-| containerStyle      | Array or Object | Optional. Styling of view element. |
-| style               | Array or Object | Optional. Styling of textinput element. |
-| menuStyle           | Array or Object | Optional. Styling of view element that contains datalist |
-| menuItemStyle       | Array or Object | Optional. Styling of text element that belongs to datalist |
+| Prop                | Type            | Description                                                                                    |
+| ------------------- | --------------- | ---------------------------------------------------------------------------------------------- |
+| value               | String          | Required for controlled components. Value of the text input.                                   |
+| onChangeText        | Function        | Required for controlled components. Callback that is called when the textinput's text changes. |
+| data                | Array           | Required for controlled components. Array of values to be listed. Please see example.          |
+| containerStyle      | Array or Object | Optional. Styling of view element.                                                             |
+| style               | Array or Object | Optional. Styling of textinput element.                                                        |
+| menuStyle           | Array or Object | Optional. Styling of view element that contains datalist                                       |
+| menuItemStyle       | Array or Object | Optional. Styling of text element that belongs to datalist                                     |
 | ... TextInput props |                 | Optional. Please see [documentation](https://reactnative.dev/docs/textinput) for more details. |
